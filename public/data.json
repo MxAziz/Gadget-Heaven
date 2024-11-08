@@ -1,0 +1,206 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://example.com/iphone15promax.jpg",
+    "category": "Smartphones",
+    "price": 1299,
+    "description": "Ultimate smartphone with cutting-edge technology.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "48MP Main Camera",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://example.com/s23ultra.jpg",
+    "category": "Smartphones",
+    "price": 1199,
+    "description": "High-performance smartphone with Infinity-O display.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "200MP Camera",
+      "12GB RAM",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Dell XPS 13",
+    "product_image": "https://example.com/dellxps13.jpg",
+    "category": "Laptops",
+    "price": 999,
+    "description": "Ultra-slim laptop with high-resolution display.",
+    "specification": [
+      "13.4-inch InfinityEdge display",
+      "Intel i7 11th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "Touchscreen"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P004",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://example.com/macbookairm2.jpg",
+    "category": "Laptops",
+    "price": 1199,
+    "description": "Lightweight laptop with M2 chip for powerful performance.",
+    "specification": [
+      "13.6-inch Liquid Retina display",
+      "Apple M2 chip",
+      "8GB RAM",
+      "512GB SSD",
+      "Magic Keyboard"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://example.com/sonywh1000xm5.jpg",
+    "category": "Accessories",
+    "price": 399,
+    "description": "Industry-leading noise cancelling headphones.",
+    "specification": [
+      "Over-Ear design",
+      "Up to 30 hours battery life",
+      "Touch controls",
+      "High-Resolution Audio",
+      "Quick Charge support"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://example.com/applewatch9.jpg",
+    "category": "Smart Watches",
+    "price": 499,
+    "description": "Advanced smartwatch with health tracking features.",
+    "specification": [
+      "1.9-inch Retina display",
+      "S9 Processor",
+      "Blood Oxygen Monitoring",
+      "ECG capability",
+      "Always-On Display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Samsung Galaxy Watch 5",
+    "product_image": "https://example.com/galaxywatch5.jpg",
+    "category": "Smart Watches",
+    "price": 349,
+    "description": "Smartwatch with comprehensive health tracking.",
+    "specification": [
+      "1.4-inch Super AMOLED display",
+      "WearOS",
+      "Heart Rate Monitor",
+      "Sleep Tracking",
+      "Water-resistant"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Bose QuietComfort Earbuds II",
+    "product_image": "https://example.com/boseearbuds2.jpg",
+    "category": "Accessories",
+    "price": 299,
+    "description": "True wireless earbuds with active noise cancellation.",
+    "specification": [
+      "Noise Cancelling",
+      "Up to 6 hours battery life",
+      "Touch controls",
+      "High-quality audio",
+      "Quick Charge support"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Apple MacBook Pro M2",
+    "product_image": "https://example.com/macbookprom2.jpg",
+    "category": "Laptops",
+    "price": 1999,
+    "description": "High-performance laptop with M2 chip and Retina display.",
+    "specification": [
+      "16-inch Liquid Retina XDR display",
+      "Apple M2 chip",
+      "16GB RAM",
+      "1TB SSD",
+      "Touch Bar"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P010",
+    "product_title": "Sony A7 IV Mirrorless Camera",
+    "product_image": "https://example.com/sonya7iv.jpg",
+    "category": "Accessories",
+    "price": 2499,
+    "description": "Professional-grade camera with 4K video recording.",
+    "specification": [
+      "33MP Full-Frame sensor",
+      "4K video recording",
+      "In-body stabilization",
+      "Wi-Fi connectivity",
+      "Fast hybrid autofocus"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Google Pixel 7 Pro",
+    "product_image": "https://example.com/pixel7pro.jpg",
+    "category": "Smartphones",
+    "price": 899,
+    "description": "Smartphone with clean UI and excellent camera performance.",
+    "specification": [
+      "6.7-inch OLED display",
+      "Google Tensor G2",
+      "50MP Wide camera",
+      "Face Unlock",
+      "5000mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P012",
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://example.com/fitbitversa4.jpg",
+    "category": "Smart Watches",
+    "price": 249,
+    "description": "Smartwatch with advanced fitness tracking.",
+    "specification": [
+      "1.58-inch AMOLED display",
+      "Heart Rate Monitoring",
+      "Sleep Tracking",
+      "Built-in GPS",
+      "Water-resistant"
+    ],
+    "availability": true,
+    "rating": 4.5
+  }
+]

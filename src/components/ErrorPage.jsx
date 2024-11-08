@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ErrorPage = () => {
+
+  const navigate = useNavigate();
+
+  const goBack = () => {
+    navigate(-1);
+  }
   return (
     <div className="min-h-96  flex flex-col space-y-4 justify-center items-center">
       <div className="flex items-center gap-4">
@@ -14,6 +21,8 @@ const ErrorPage = () => {
           </h1>
         </div>
       </div>
+
+      <button onClick={goBack} className="px-4 py-3 rounded-xl bg-black text-white mt-4 font-bold">Go Back</button>
     </div>
   );
 };

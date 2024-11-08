@@ -1,11 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { NavLink } from "react-router-dom";
 
 const Dashboard = () => {
   return (
     <div>
+      <Helmet>
+        <title>Dashboard || Gadget Heaven</title>
+      </Helmet>
+
       <div className="text-center space-y-4 bg-[#9538E2] text-white py-8">
-        <h1 className="text-3xl font-bold">Dashboard</h1>
+        <h1 className="text-4xl font-bold">Dashboard</h1>
         <p>
           Explore the latest gadgets that will take your experience to the next
           level. From smart devices to <br /> the coolest accessories, we have

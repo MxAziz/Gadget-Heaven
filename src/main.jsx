@@ -10,6 +10,7 @@ import ErrorPage from './components/ErrorPage';
 import Home from './components/Home';
 import Dashboard from './components/Dashboard';
 import Statistics from './components/Statistics';
+import About from './components/About';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
       },
+      {
+        path: "/about",
+        element: <About></About>
+      }
     ],
   },
 ]);
