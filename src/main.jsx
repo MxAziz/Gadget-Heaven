@@ -14,6 +14,8 @@ import About from './components/About';
 import AllGadgets from './components/AllGadgets';
 import Chargers from './components/Chargers';
 import GadgetDetails from './components/GadgetDetails';
+import Cart from './components/Cart';
+import Wishlist from './components/Wishlist';
 
 const router = createBrowserRouter([
   {
@@ -49,14 +51,24 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <Dashboard></Dashboard>,
+        children: [
+          {
+            path: "/dashboard/cart",
+            element: <Cart></Cart>
+          },
+          {
+            path: "/dashboard/wishlist",
+            element: <Wishlist></Wishlist>
+          },
+        ]
       },
       {
         path: "/about",
         element: <About></About>,
       },
       {
-        path: "/gadgetDetails",
-
+        path: "/gadget/:gadgetId",
+        loader:()=> fetch(`/data.json`),
         element: <GadgetDetails></GadgetDetails>,
       },
     ],

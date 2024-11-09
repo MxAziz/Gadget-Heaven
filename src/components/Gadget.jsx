@@ -18,7 +18,7 @@ const Gadget = ({ gadget }) => {
           <img className='w-full h-44 rounded-xl mb-4 object-cover' src={product_image} alt="" />
           <h3 className="text-xl font-bold">{product_title}</h3>
           <p className='text-gray-600 mb-4'>Price: $ {price}</p>
-          <NavLink to={`/`} className="px-3 py-2 font-bold rounded-full border-2 text-purple-500 border-purple-500">
+          <NavLink to={`/gadget/${product_id}`} className="px-3 py-2 font-bold rounded-full border-2 text-purple-500 border-purple-500">
             View Details
           </NavLink>
         </div>
