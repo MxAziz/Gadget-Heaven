@@ -21,7 +21,7 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               `px-4 py-2 rounded-xl ${
-                isActive ? "bg-black text-white" : "text-gray-800"
+                isActive ? "bg-black text-white" : ""
               }`
             }
           >

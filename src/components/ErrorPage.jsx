@@ -9,7 +9,7 @@ const ErrorPage = () => {
     navigate(-1);
   }
   return (
-    <div className="min-h-96  flex flex-col space-y-4 justify-center items-center">
+    <div className="h-screen flex flex-col space-y-4 justify-center items-center">
       <div className="flex items-center gap-4">
         <small className="text-7xl font-bold text-[#9538E2]">404</small>
         <div className="">
