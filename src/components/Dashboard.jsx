@@ -23,7 +23,7 @@ const Dashboard = () => {
             }) => ` border-2 rounded-full px-6 py-2  font-bold
             ${isActive ? "bg-white text-purple-600" : ""}
             `}
-            to={"/dashboard/cart"}
+            to={"/dashboard"}
           >
             Cart
           </NavLink>

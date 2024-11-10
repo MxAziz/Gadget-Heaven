@@ -52,7 +52,7 @@ const Home = () => {
                 className={({ isActive }) =>
                   `p-2 bg-gray-100 rounded-full font-semibold ${
                     isActive
-                      ? "bg-purple-500 text-white font-semibold"
+                      ? "bg-purple-500 text-white "
                       : "hover:text-purple-700"
                   }`
                 }
