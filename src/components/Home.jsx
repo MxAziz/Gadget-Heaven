@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { NavLink, Outlet, useLoaderData, useLocation } from "react-router-dom";
+import { Link, NavLink, Outlet, useLoaderData, useLocation } from "react-router-dom";
 import Categories from "./Categories";
 
 const Home = () => {
@@ -25,9 +25,11 @@ const Home = () => {
               next level. From smart devices to the coolest accessories, we have
               it all!
             </p>
-            <button className="text-[#9538E2] font-bold bg-white rounded-full mt-4 px-5 py-3">
-              Shop Now
-            </button>
+            <Link to={'/dashboard'}>
+              <button className="text-[#9538E2] font-bold bg-white rounded-full mt-4 px-5 py-3">
+                Shop Now
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -41,8 +43,9 @@ const Home = () => {
 
         <div className="mt-[380px] w-11/12 mx-auto">
           <h1 className="text-center text-4xl font-bold mb-10">
-            Explore Cutting-Edge Gadgets
+            Explore Cutting-Edge Gadgets more
           </h1>
+
           {/* sidebar and cards container */}
           <div className="flex gap-10 pb-14">
             {/* sidebar */}
