@@ -58,3 +58,13 @@ GadgetHeaven is an e-commerce platform where you can easily browse and purchase 
 1. Clone the repository:
    ```bash
    git clone https://github.com/MxAziz/Gadget-Heaven.git
+
+
+# 2. Move project directory
+cd gadgetheaven
+
+# 3. Install dependencies for this project
+npm install
+
+# 4. Start development server
+npm start
