@@ -44,7 +44,7 @@ const About = () => {
             alt=""
           />
 
-          <div className=" space-y-4 mt-4">
+          <div className=" space-y-4 mt-4 pb-12">
             <div className="">
               <h3 className="font-semibold">Hello,</h3>
               <p>

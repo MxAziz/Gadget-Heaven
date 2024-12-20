@@ -43,7 +43,7 @@ const Home = () => {
 
         <div className="mt-[380px] w-11/12 mx-auto">
           <h1 className="text-center text-4xl font-bold mb-10">
-            Explore Cutting-Edge Gadgets more
+            Explore Cutting-Edge Gadgets
           </h1>
 
           {/* sidebar and cards container */}

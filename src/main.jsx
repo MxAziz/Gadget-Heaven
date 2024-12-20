@@ -1,6 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+// toast
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +19,7 @@ import Chargers from './components/Chargers';
 import GadgetDetails from './components/GadgetDetails';
 import Cart from './components/Cart';
 import Wishlist from './components/Wishlist';
+import { CartProvider } from "./components/CartContext";
 
 const router = createBrowserRouter([
   {
@@ -75,8 +79,22 @@ const router = createBrowserRouter([
   },
 ]);
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
+    <CartProvider>
       <RouterProvider router={router} />
-  </StrictMode>,
-)
+      <ToastContainer
+        position="top-center"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss={true}
+        draggable={true}
+        pauseOnHover={true}
+        theme="colored"
+      />
+    </CartProvider>
+  </StrictMode>
+);
