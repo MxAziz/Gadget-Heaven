@@ -5,7 +5,7 @@ Your go-to destination for the latest and greatest gadgets! 🚀
 GadgetHeaven is an e-commerce platform where you can easily browse and purchase new and modern gadgets.
 
 ## 🖥️ Live Website
-[View Live Website](https://your-live-website-link.com)
+[View Live Website](https://gadget-heaven-360.netlify.app)
 
 ## 📄 Requirement Document
 [View Requirement Document](https://your-requirement-document-link.com)
