@@ -7,11 +7,11 @@ const Wishlist = () => {
 
   return (
     <div className="p-8">
-      <h2 className="text-2xl font-bold mb-4">Wishlist</h2>
+      <h2 className="text-3xl font-bold mb-4">Wishlist</h2>
       {wishlist.map((item) => (
         <div
           key={item.product_id}
-          className="flex items-center justify-between border p-4 mb-4 rounded"
+          className="flex items-center justify-between bg-white rounded-xl border p-8 mb-4 "
         >
           <img
             src={item.product_image}

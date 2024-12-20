@@ -46,7 +46,7 @@ const Cart = () => {
         {cart.map((item) => (
           <div
             key={item.product_id}
-            className="flex items-center justify-between border p-4 mb-4 rounded"
+            className="flex items-center justify-between border p-8 mb-4 rounded-xl bg-white"
           >
             <img
               src={item.product_image}
