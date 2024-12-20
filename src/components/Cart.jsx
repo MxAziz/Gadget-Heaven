@@ -34,7 +34,12 @@ const Cart = () => {
           </button>
           <button
             onClick={handlePurchase}
-            className="px-4 py-2 italic bg-purple-600 font-bold text-white rounded-full mb-4 ml-2"
+            disabled={cart.length === 0 || totalCost === 0}
+            className={`px-4 py-2 italic font-bold rounded-full mb-4 ml-2 ${
+              cart.length === 0 || totalCost === 0
+                ? "bg-gray-400 text-gray-800 cursor-not-allowed"
+                : "bg-purple-600 text-white"
+            }`}
           >
             Purchase
           </button>
